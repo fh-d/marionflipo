@@ -1,0 +1,27 @@
+{
+  "name": "marionflipo",
+  "version": "1.0.0",
+  "description": "Splash design",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "wiredep": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankirito/marionflipo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankirito/marionflipo/issues"
+  },
+  "homepage": "https://github.com/frankirito/marionflipo#readme"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "marionflipo",
+  "description": "Splash design",
+  "main": "index.js",
+  "authors": [
+    "frankirito <francoishenri.dupuich@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/frankirito/marionflipo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "animate.css": "^3.5.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
