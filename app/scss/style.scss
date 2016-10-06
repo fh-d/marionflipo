@@ -20,11 +20,11 @@ body,
 }
 
 body {
-    font-family: "Varela Round", Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #7f7f7f;
+    color: #fff;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #000000;
@@ -52,10 +52,33 @@ header{
 }
 
 .right{
-	background-color: green;
 }
 .red{
-    background-color: red;
     margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
     transform : translateY(-50%);
+}
+.logo{
+    position:relative;
+}
+.logo img{
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+}
+H1 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-transform : uppercase;
+}
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    border-radius: 0.1;
+    transition: all 0.5s;
+    margin-left: 10px;
 }
