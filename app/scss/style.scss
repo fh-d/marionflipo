@@ -93,3 +93,25 @@ p{
     transition: all 0.5s;
     margin-left: 10px;
 }
+
+header .social {
+    margin-top: 60px;
+    background-color: red;
+}
+
+header .social ul{
+    list-style:none;
+    position:relative;
+}
+
+header .social li{float:right;position:relative; margin-left: 20px;}
+
+header .social i.fa {
+    font-size: 20px;
+    padding: 4px 5px;
+    color: #fff;
+    transition: all 0.5s;
+}
+header .social i.fa:hover {
+    color: #121d1f;
+}

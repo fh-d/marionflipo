@@ -26,5 +26,8 @@
         "dist/js/bootstrap.min.js"
       ]
     }
+  },
+  "devDependencies": {
+    "components-font-awesome": "^4.6.3"
   }
 }
